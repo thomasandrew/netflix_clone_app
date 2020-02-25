@@ -51,7 +51,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
     play: {
-        marginTop: 277,
+        marginTop: 285,
     },
     plus: {
         marginLeft: -200,
