@@ -10,6 +10,7 @@ import {
 } from 'react-native'
 import Play from './components/Play'
 import Movies from './components/Movies'
+import Types from './components/Types'
 
 export default class App extends Component {
   render() {
@@ -39,13 +40,27 @@ export default class App extends Component {
           </View>
         </View>
         <Play />
-        {/*<View style={styles.filmList}>
+        <View style={styles.filmList}>
+          <Types txt=" Popular on Netflix" />
           <ScrollView horizontal={true}>
-
-              <Movies />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
 
           </ScrollView>
-        </View> */}
+        </View> 
+
+        <View style={styles.filmList}>
+          <Types txt=" Popular on Netflix" />
+          <ScrollView horizontal={true}>
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+            <Movies filmUri={'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'} />
+
+          </ScrollView>
+        </View> 
 
 
 
@@ -58,7 +73,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#181818',
-    // backgroundColor: '#F5FCFF',
   },
   main_star: {
     height: 340,
@@ -68,8 +82,9 @@ const styles = StyleSheet.create({
     marginTop: -303,
   },
   filmList: {
-    borderWidth: 1,
+    //borderWidth: 1,
     marginTop: -45,
+    height: 230,
   },
 
 })
