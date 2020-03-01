@@ -37,7 +37,7 @@ export default class App extends Component {
                 <View style={styles.info}>
                     <TouchableOpacity style={{ width: 50, height: 50 }}>
                         <View style={{ bottom: 3 }}>
-                            <Icon type='font-awesome' name='info-circle' size={27} color='#fff' />
+                            <Icon type='font-awesome' name='info-circle' size={30} color='#fff' />
                         </View>
                         <View style={{ left: 14, bottom: 4 }}>
                             <Text style={{ color: '#fff' }}>Info</Text>
@@ -51,27 +51,26 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
     play: {
-        marginTop: 285,
+        marginTop: 455,
     },
     plus: {
-        marginLeft: -200,
+        marginLeft: -260,
     },
     my: {
         color: '#fff',
         marginTop: -5,
-        marginLeft: 5,
+        marginLeft: 33,
     },
     btn_play: {
         borderWidth: 1,
         width: 90,
         height: 35,
-        marginLeft: 80,
+        marginLeft: 150,
         marginTop: -40,
         backgroundColor: '#fff',
     },
     info: {
-        left: 190,
+        left: 290,
         bottom: 41,
     },
 })
-
