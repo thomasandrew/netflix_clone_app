@@ -25,7 +25,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
     types: {
-        top: 20,
+        top: -5,
     },
     text: {
         color: '#fff',
@@ -34,4 +34,3 @@ const styles = StyleSheet.create({
     },
    
 })
-
