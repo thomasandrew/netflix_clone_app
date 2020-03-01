@@ -25,19 +25,11 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
     movie: {
-        height: 150,
-        width: 90,
+        height: 190,
+        width: 110,
         borderWidth: 1,
-        marginLeft: 8,
-        marginTop: 23,
-    },
-    types: {
-        top: 20,
-    },
-    text: {
-        color: '#fff',
-        fontFamily: 'Arial',
-        fontSize: 16,
+        marginLeft: 17,
+        marginTop: -5,
     },
     img: {
         flex: 1,
@@ -46,4 +38,3 @@ const styles = StyleSheet.create({
         resizeMode: 'cover',
     },
 })
-
