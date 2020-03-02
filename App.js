@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {
   AppRegistry,
   StyleSheet,
@@ -57,7 +57,7 @@ export default class App extends Component {
             <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'
+                  'https://cdn.europosters.eu/image/1300/posters/terminator-genisys-one-sheet-arnold-schwarzenegger-i47364.jpg'
                 }
               />
             </TouchableOpacity>
@@ -436,7 +436,7 @@ export default class App extends Component {
             <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://img.reelgood.com/content/show/465d826b-8267-4b49-bf57-3dc37bdc7440/poster-780.jpg'
+                  'https://cdn.europosters.eu/image/1300/posters/terminator-genisys-one-sheet-arnold-schwarzenegger-i47364.jpg'
                 }
               />
             </TouchableOpacity>
