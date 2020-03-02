@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -57,7 +57,7 @@ export default class App extends Component {
             <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/1300/posters/terminator-genisys-one-sheet-arnold-schwarzenegger-i47364.jpg'
+                  'https://br.web.img3.acsta.net/r_1280_720/pictures/18/08/07/00/17/4205927.jpg'
                 }
               />
             </TouchableOpacity>
@@ -436,7 +436,7 @@ export default class App extends Component {
             <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/1300/posters/terminator-genisys-one-sheet-arnold-schwarzenegger-i47364.jpg'
+                  'https://br.web.img3.acsta.net/r_1280_720/pictures/18/08/07/00/17/4205927.jpg'
                 }
               />
             </TouchableOpacity>
@@ -792,6 +792,210 @@ export default class App extends Component {
             </TouchableOpacity>
           </ScrollView>
         </View>
+
+
+
+
+
+
+
+         {/* Anime */}
+
+         <View style={styles.filmList}>
+          <Types txt="   Anime" />
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+            <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+            
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://images-na.ssl-images-amazon.com/images/I/71HYRubAuHL._AC_SY741_.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDpsrfnEStTNJm7jFLqe__UfDecxm6NtJD8dAm0FzCh60FYNUN'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://3.bp.blogspot.com/-XGAscE6-MmM/U-5FHbwoODI/AAAAAAAAAPM/FV4qcAQxvwU/s1600/capa.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://i.pinimg.com/originals/69/3b/59/693b59259aae6cdafdcea6139ebc72f0.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://i.pinimg.com/originals/d3/54/b2/d354b25a8066db5c638c169b37014c40.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://media.fstatic.com/qDFvb5m_fZFqPEnF5a3C0H6-t3w=/fit-in/290x478/smart/media/movies/covers/2011/08/cdc9fb3e200116147115fef76cd4139e.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ScrollView>
+            </View> 
+
+
+
+
+
+
+
+
+
+
+
+
+
       </ScrollView>
     );
   }
