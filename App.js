@@ -16,6 +16,7 @@ import Box from './components/Box';
 import Watched from './components/Watched';
 import Trailers from './components/Trailers';
 import Original from './components/Original';
+import TabNav from './components/TabNav';
 
 export default class App extends Component {
   render() {
@@ -378,7 +379,7 @@ export default class App extends Component {
             </TouchableOpacity>
 
             <TouchableOpacity>
-              <Original oriUri="https://lh3.googleusercontent.com/proxy/6rfs8hcx1hwnCfqHjya3AsFc1yi0gMujlE8RLGICOGyWSd5QgyTNjCs7TWdwfmRKl8qsjVNuyqtGYgTHppX1YLhQ_xIQvAqsCYKz60DBO9F8HrpBtANMAXBhKG9SWnAohZHJYSo" />
+              <Original oriUri="https://www.baka-tsuki.org/project/thumb.php?f=Fateapocrypha_vol.01_cover.jpg&width=300" />
             </TouchableOpacity>
 
             <TouchableOpacity>
@@ -863,7 +864,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://http2.mlstatic.com/-dvd-fate-stay-night-unlimited-blade-works-3-filmes-ova-D_NQ_NP_646271-MLB31348750188_072019-F.jpg'
                 }
               />
             </TouchableOpacity>
@@ -871,7 +872,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://media.fstatic.com/Y6rKVT9YmF4s811GD0m90HI-vtY=/fit-in/290x478/smart/media/movies/covers/2015/07/god-eater_t117494.jpg'
                 }
               />
             </TouchableOpacity>
@@ -879,7 +880,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSzwTXVOs4skePFyuV8ZPq-0d7529w5iDvCYx7TVqa5Hnqmjy9U'
                 }
               />
             </TouchableOpacity>
@@ -887,7 +888,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://img1.ak.crunchyroll.com/i/spire3/2e3d5e0f13da8c0eced54b573d883f0a1473358908_full.jpg'
                 }
               />
             </TouchableOpacity>
@@ -895,7 +896,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://4.bp.blogspot.com/-MAsrMCRJT6o/V3rsBNZaXoI/AAAAAAAAAyc/QWo6zb6kK0Uf9KlJJbvHBqK6mZM1_G_iwCLcB/s1600/ajin_t194859_jpg_290x478_upscale_q90.jpg'
                 }
               />
             </TouchableOpacity>
@@ -903,7 +904,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://www.otakupt.com/wp-content/uploads/2019/04/Retronime-%E2%80%93-Samurai-7-1.jpg'
                 }
               />
             </TouchableOpacity>
@@ -911,7 +912,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://img.reelgood.com/content/show/7f87aa9f-7c2f-4af3-8380-435f6c2623b7/poster-780.jpg'
                 }
               />
             </TouchableOpacity>
@@ -919,7 +920,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyLFGvIp6A8bBfCECVsXbobl7eYowo9FPEeqwJtYf2ipUpYvPS'
                 }
               />
             </TouchableOpacity>
@@ -927,7 +928,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://viatorrents.com/capas/levius-download-torrent-2019-dublado-dual-audio-bluray-1080p-720p-4k-hd.jpg'
                 }
               />
             </TouchableOpacity>
@@ -935,7 +936,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://i.pinimg.com/originals/54/e9/2f/54e92f1234628db99962f0cb311af750.jpg'
                 }
               />
             </TouchableOpacity>
@@ -943,7 +944,7 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://img.reelgood.com/content/show/612c3d22-842f-46cb-8c03-29dc257e214f/poster-780.jpg'
                 }
               />
             </TouchableOpacity>
@@ -951,39 +952,62 @@ export default class App extends Component {
                 <TouchableOpacity>
               <Movies
                 filmUri={
-                  'https://cdn.europosters.eu/image/750/posters/one-punch-man-saitama-i33907.jpg'
+                  'https://ib4.hulu.com/user/v3/artwork/2f68a2eb-6cd6-49cf-a1c3-43b570b991cc?base_image_bucket_name=image_manager&base_image=0a3f8333-d863-4951-8c6e-8abf6750bd7b&size=400x600&format=jpeg'
                 }
               />
             </TouchableOpacity>
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            </ScrollView>
+        </ScrollView>
             </View> 
 
+         
+
+
+            {/* My list */}
+
+             <View style={styles.filmList}>
+          <Types txt="   My List" />
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+            <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://i.pinimg.com/originals/50/7c/23/507c23ff361069cd26fc1014cab9bd22.jpg'
+                }
+              />
+            </TouchableOpacity>
+            
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://br.web.img3.acsta.net/r_1280_720/pictures/18/08/07/00/17/4205927.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://i.pinimg.com/originals/70/00/35/700035ff9544e2aaa9dd45453a284e2d.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://i.pinimg.com/originals/df/ff/20/dfff20e129c2de83826b73253ab8d8d4.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+                <TouchableOpacity>
+              <Movies
+                filmUri={
+                  'https://m.media-amazon.com/images/M/MV5BMTQ2NTM1MjYzOV5BMl5BanBnXkFtZTgwNjQwMjA1MjE@._V1_UX182_CR0,0,182,268_AL_.jpg'
+                }
+              />
+            </TouchableOpacity>
+
+            
 
 
 
@@ -996,6 +1020,29 @@ export default class App extends Component {
 
 
 
+
+
+
+
+
+
+
+
+
+      
+            </ScrollView>
+            </View>
+
+
+
+
+
+
+
+
+
+
+            <TabNav />
       </ScrollView>
     );
   }
